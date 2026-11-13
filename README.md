@@ -8,7 +8,7 @@ Ce dépôt sert aussi à découvrir [OpenSpec](https://openspec.dev), une métho
 
 ### 1. Vérifier les prérequis
 
-- **GitHub Copilot app** (application de bureau, pas VS Code) : installée et connectée à ton compte GitHub. Il faut un forfait Copilot, ou un fournisseur de modèles configuré dans l'app. Téléchargement et premiers pas : [Getting started with the GitHub Copilot app](https://docs.github.com/en/copilot/get-started/quickstart-copilot-app).
+- **GitHub Copilot app** (application de bureau) : installée et connectée à ton compte GitHub. Il faut un forfait Copilot, ou un fournisseur de modèles configuré dans l'app. Téléchargement et premiers pas : [Getting started with the GitHub Copilot app](https://docs.github.com/en/copilot/get-started/quickstart-copilot-app).
 - **Node.js 22.12 ou plus récent** (requis par OpenSpec). Vérifie avec `node --version`.
 - **Git**, pour cloner ce dépôt.
 
