@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mes tâches du jour</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Mes tâches</h1>
+      <nav class="onglets">
+        <button type="button" id="onglet-jour" class="actif">Aujourd'hui</button>
+        <button type="button" id="onglet-archives">Archives</button>
+      </nav>
+    </header>
+
+    <div id="erreur" class="erreur" role="alert" hidden></div>
+
+    <form id="formulaire-ajout" class="ajout">
+      <input id="champ-ajout" type="text" placeholder="Nouvelle tâche, puis Entrée" maxlength="500" autocomplete="off" autofocus>
+    </form>
+
+    <ul id="liste" class="liste"></ul>
+    <p id="vide" class="vide" hidden></p>
+  </main>
+
+  <script src="regles.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

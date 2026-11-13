@@ -1,0 +1,14 @@
+{
+  "name": "tte-openspecapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Liste personnelle de tâches du jour, en local",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
